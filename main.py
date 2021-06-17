@@ -31,7 +31,7 @@ def createTable(soup):
 
 def getFounders(df):
     for index, row in df.iterrows():
-        if ("Founders" in row[0] or "Founder" in row[0]):
+        if ("Founders" in row[0] or "Founder" in row[0] or "Founder(s)" in row[0]):
             print(row[1])
             return row[1]
 

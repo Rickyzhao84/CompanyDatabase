@@ -48,6 +48,12 @@ class TestMain(unittest.TestCase):
         soup = BeautifulSoup(response.content, 'html.parser')
         self.assertTrue("John Collison" in main.createTable(soup))
 
+    def test_Twitter_founder(self):
+        response = requests.get(
+            url="https://en.wikipedia.org/wiki/Twitter"
+        )
+        soup = BeautifulSoup(response.content, 'html.parser')
+        self.assertTrue("Jack Dorsey" in main.createTable(soup))
 
 if __name__ == '__main__':
     unittest.main()
