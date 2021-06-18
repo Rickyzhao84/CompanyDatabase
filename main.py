@@ -41,5 +41,3 @@ createTable(soup)
 
 def getResponseStatus():
     return response.status_code
-
-#https://www.geeksforgeeks.org/web-scraping-from-wikipedia-using-python-a-complete-guide/
