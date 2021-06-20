@@ -1,7 +1,10 @@
 from flair.data import Sentence
 from flair.models import SequenceTagger
+import spacy
 
+nlp = spacy.load('en_core_web_sm')
 bingQueryFile = open('bingqueryresultx.txt', 'r', encoding='UTF8')
+newFile = open("data.txt", "w")
 
 count = 0
 textParagraphCount = 0
@@ -17,9 +20,11 @@ for line in bingQueryFile:
         sentence = Sentence(line)
         tagger = SequenceTagger.load('ner')
         tagger.predict(sentence)
-        print(sentence)
         for entity in sentence.get_spans('ner'):
-            print(entity)
+            doc = nlp(str(entity))
+            for sent in doc.sents:
+                newFile.write(str(sent))
+        
 
     if ("[QUERY]" in line.strip('\n')):
         print(line.split(":")[1])
@@ -27,7 +32,7 @@ for line in bingQueryFile:
         textParagraphCount += 1
 
 
-
+newFile.close()
 bingQueryFile.close()
 
 
