@@ -1,12 +1,12 @@
+from flair.data import Sentence
 from flair.models import SequenceTagger
 
-tagger = SequenceTagger.load('ner')
+split_file = open('split_sentence.txt', 'r', encoding='UTF8')
+newFile = open('data.txt', 'w', encoding='utf-8')
 
-sentence = Sentence('Ricky went to Seattle today')
-
-tagger.predict(sentence)
-
-print(sentence.to_tagged_string())
-
-for entity in sentence.get_spans('ner'):
-    print(entity)
+for line in split_file:
+    sentence = Sentence(line)
+    tagger = SequenceTagger.load('ner')
+    tagger.predict(sentence)
+    newFile.write(sentence.to_tagged_string())
+    newFile.write("\n")

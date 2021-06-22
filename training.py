@@ -4,7 +4,7 @@ import spacy
 
 nlp = spacy.load('en_core_web_sm')
 bingQueryFile = open('bingqueryresultx.txt', 'r', encoding='UTF8')
-newFile = open("data.txt", "w", encoding='utf-8')
+newFile = open("split_sentence.txt", "w", encoding='utf-8')
 
 count = 0
 textParagraphCount = 0
