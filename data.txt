@@ -1,94 +1,364 @@
-Starbucks, ORG
-
-
-Starbucks Refreshers ®, ORG
-Mango Dragonfruit, ORG
-Strawberry Açaí, ORG
-Kiwi Starfruit, ORG
-
-
-
-
-
-
-
-
-Starbucks Corporation, ORG
-American, MISC
-Seattle, LOC
-Washington, LOC
-
-Starbucks, ORG
-United States', LOC
-
-
-
-Starbucks Unsweetened Blonde Roast Iced Coffee, MISC
-
-Starbucks Discoveries, ORG
-
-
-
-
-Starbucks Frappuccino Vanilla Chilled Coffee Drink, MISC
-
-
-
-
-
-
-Amazon Payment Products, ORG
-
-Amazon Rewards Visa Signature Cards, ORG
-
-Amazon.com Store Card, ORG
-
-Amazon Secured Card, ORG
-
-Amazon Business Card, ORG
-
-Amazon Business Line of Credit, ORG
-
-Points, ORG
-
-
-
-
-
-Starbucks, ORG
-
-
-
-
-
-
-
-
-
-Starbucks, ORG
-American, MISC
-
-Seattle, LOC
-Washington, LOC
-
-Seattle, LOC
-Howard Schultz, PER
-
-
-
-Starbucks, ORG
-Jerry Baldwin, PER
-Howard D. Schultz, PER
-Seattle, LOC
-WA, LOC
-
-
-
-Ford Motor Company, ORG
-
-
-Ford ®, ORG
-America, LOC
-
-Ford, ORG
-
+Starbucks ORG
+Starbucks Refreshers ® ORG
+Mango Dragonfruit ORG
+Strawberry Açaí ORG
+Kiwi Starfruit ORG
+Starbucks Corporation ORG
+American MISC
+Seattle LOC
+Washington LOC
+Starbucks ORG
+United States' LOC
+Starbucks Unsweetened Blonde Roast Iced Coffee MISC
+Starbucks Discoveries ORG
+Starbucks Frappuccino Vanilla Chilled Coffee Drink MISC
+Amazon Payment Products ORG
+Amazon Rewards Visa Signature Cards ORG
+Amazon.com Store Card ORG
+Amazon Secured Card ORG
+Amazon Business Card ORG
+Amazon Business Line of Credit ORG
+Points ORG
+Starbucks ORG
+Starbucks ORG
+American MISC
+Seattle LOC
+Washington LOC
+Seattle LOC
+Howard Schultz PER
+Starbucks ORG
+Jerry Baldwin PER
+Howard D. Schultz PER
+Seattle LOC
+WA LOC
+Ford Motor Company ORG
+Ford ® ORG
+America LOC
+Ford ORG
+Ford ORG
+Ford ORG
+Ford Motor Company ORG
+Ford Motor Company ORG
+Ford ORG
+Lincoln Dealer ORG
+Ford Motor Company ORG
+Ford Motor Company ORG
+Ford ORG
+American MISC
+Dearborn LOC
+Michigan LOC
+Detroit LOC
+Henry Ford PER
+Ford ORG
+Lincoln LOC
+Ford ORG
+Brazilian MISC
+Troller ORG
+Ford Motor Company ORG
+Ford Motor Company ORG
+Ford ORG
+Lincoln Dealer ORG
+Ford Motor Company ORG
+River Rouge LOC
+Detroit LOC
+Michigan LOC
+Encyclopædia Britannica , Inc ORG
+Paris LOC
+Ford ORG
+Ford ORG
+Panasonic ORG
+Panasonic ORG
+Lumix ORG
+Panasonic ORG
+Panasonic ORG
+LUMIX G1 MISC
+Panasonic Corporation ORG
+Matsushita Electric Industrial Co. , Ltd. ORG
+Japanese MISC
+Kadoma LOC
+Osaka LOC
+Kōnosuke Matsushita PER
+Panasonic ORG
+Panasonic ORG
+Panasonic ORG
+Black LOC
+Panasonic ORG
+Genius Sensor ORG
+HomeCHEF MISC
+HomeCHEF MISC
+Panasonic ORG
+Miraie MISC
+Panasonic G7 MISC
+Panasonic ORG
+YouTube ORG
+Panasonic Help Channel ORG
+Opens ORG
+McDonald 's ORG
+McDonald ORG
+Uber Eats MISC
+DoorDash MISC
+McDonald ’s ORG
+McDonald 's Corporation ORG
+McDonald ’s USA ORG
+McDonald ORG
+McDonald 's Corporation ORG
+American MISC
+Richard PER
+Maurice McDonald PER
+San Bernardino LOC
+California LOC
+United States LOC
+Golden Arches MISC
+Phoenix LOC
+Arizona LOC
+McDonald LOC
+McDonald 's ORG
+McDonald ORG
+French MISC
+McDonalds Menu Prices ORG
+McDonald PER
+Richard PER
+Maurice McDonald PER
+San Bernardino LOC
+California LOC
+Chicago LOC
+Google Play MISC
+Apple App Store ORG
+Samsung ORG
+Samsung Credit ORG
+www.Samsung.com MISC
+Shop Samsung App MISC
+Samsung Account ORG
+Samsung Explore MISC
+Samsung ORG
+Samsung Galaxy ORG
+Galaxy ORG
+U.S LOC
+Wi-Fi MISC
+S Pen MISC
+Samsung Galaxy A32 MISC
+Awesome Black MISC
+Samsung Galaxy MISC
+Galaxy ORG
+Samsung Galaxy Note20 Ultra 5G Samsung Galaxy Note20 Ultra 5G Start MISC
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Galaxy ORG
+Find My Mobile MISC
+Honeywell ORG
+Honeywell ORG
+Honeywell Personal Protective Equipment ORG
+PPE ORG
+Honeywell ORG
+Honeywell PPE MISC
+Honeywell Home ORG
+Honeywell Store ORG
+Honeywell Products ORG
+Honeywell International Inc. ORG
+American MISC
+Charlotte LOC
+North Carolina LOC
+SPS ORG
+Honeywell ORG
+Fortune 100 MISC
+Honeywell Insight ORG
+Honeywell Automation Colleges ORG
+Automation College ORG
+Honeywell Home ORG
+Resideo Technologies , Inc ORG
+Paramount Pictures ORG
+New York Times ORG
+Chris Evans PER
+Michelle Dockery PER
+Jaeden Martell PER
+Cherry Jones PER
+Pablo Schreiber PER
+Betty Gabriel PER
+Sakina Jaffrey PER
+Massachusetts LOC
+Paramount Pictures Corporation ORG
+Paramount Pictures ORG
+Paramount ORG
+American MISC
+ViacomCBS.It ORG
+United States LOC
+Universal Pictures ORG
+Paramount Pictures Corp. ORG
+W.W. Hodkinson PER
+Adolph Zukor PER
+Famous Players Film Company ORG
+Jesse L. Lasky Feature Play Company ORG
+Zukor PER
+Lasky PER
+Lasky Corporation ORG
+Paramount ORG
+Paramount Network ORG
+Paramount Network ORG
+Paramount Pictures MISC
+CBS ORG
+BET ORG
+Comedy Central ORG
+Nickelodeon ORG
+MTV ORG
+VH1 ORG
+IKEA ORG
+IKEA ORG
+IKEA ORG
+IKEA ORG
+IKEA ORG
+IKEA ORG
+IKEA ORG
+UN ORG
+IKEA ORG
+IKEA ORG
+IKEA MALM ORG
+Amazon ORG
+Ikea Trofast Toy Storage Box White ORG
+IKEA ORG
+Swedish MISC
+Swedish MISC
+Dutch MISC
+Sweden LOC
+Ingvar Kamprad PER
+IKEA ORG
+French MISC
+IKEA ORG
+Swedish MISC
+Ikea ORG
+Swedish MISC
+Swedish MISC
+IKEA ORG
+IKEA Brand ORG
+IKEA ORG
+Sweden LOC
+IKEA ORG
+Shellmound Street LOC
+Emeryville,CA LOC
+Sears ORG
+Kenmore ORG
+Craftsman Tools ORG
+Serta ORG
+Diehard ORG
+Sears ORG
+Sears ORG
+Sears ORG
+Roebuck and Co. ORG
+Sears ORG
+American MISC
+Richard Warren Sears PER
+Alvah Curtis Roebuck PER
+Richard Sears PER
+Julius Rosenwald PER
+Sears Tower ORG
+Chicago LOC
+Hoffman Estates LOC
+Illinois LOC
+Sears Category MISC
+Craftsman ORG
+Sears.com ORG
+Sears Parts Direct ORG
+Sears Home Services ORG
+Kenmore ORG
+GE ORG
+Samsung ORG
+Maytag ORG
+Bosch ORG
+LG ORG
+Sears ORG
+Sears ORG
+Shop Your Way MISC
+Red Hat ORG
+Red Hat ORG
+Linux MISC
+Red Hat ORG
+Red Hat ORG
+S & P 500 MISC
+Red Hat , Inc. ORG
+American MISC
+Red Hat ORG
+Raleigh LOC
+North Carolina LOC
+IBM ORG
+Red Hat ORG
+Red Hat Enterprise Linux MISC
+Pixar Toy Story Pizza Planet MISC
+Amazon ORG
+Red Hat Enterprise Linux ORG
+RHEL ORG
+Red Hat ORG
+Red Hat ORG
+RHEL MISC
+Red Hat Enterprise Linux MISC
+Samba ORG
+OpenOffice.org MISC
+MySQL MISC
+GIMP ORG
+Firefox ORG
+Red Hat Society ORG
+Red Hat Society ORG
+RHS ORG
+United States LOC
+Royal Court of Queens Processional ORG
+Sue Ellen PER
+Red Hat ORG
+Red Hat Realty and Auction ORG
+University of Chicago ORG
+University of Chicago ORG
+University of Chicago ORG
+University of Chicago Rankings ORG
+U.S. Department of Education ORG
+America LOC
+America LOC
+America LOC
+University of Chicago ORG
+University of Chicago ORG
+UChicago ORG
+MyAccount ORG
+University of Chicago ORG
+UChicago Medicine Ingalls Memorial ORG
+Calumet City LOC
+UChicago Medicine Ingalls Memorial ORG
+University of Illinois ORG
+Chicago LOC
+Chicago LOC
+UIC ORG
+Mercedes-Benz ORG
+Mercedes-Benz ORG
+Mercedes-Benz ORG
+Mercedes-Benz ORG
+Mercedes-Benz AG ORG
+U.S. LOC
+U.S. LOC
+www.mbusa.com MISC
+A-Class ORG
+Florian Ambrosius PER
+S-Class ORG
+Mercedes-Benz V-Class MISC
+E-Class ORG
+Mercedes-Benz AMG GT MISC
+Mercedes-Benz AMG ORG
+Mercedes-Benz AMG SLC MISC
+Mercedes-Benz ORG
+Denver LOC
+Mercedes-Benz ORG
+Littleton LOC
+Denver ORG
+Castle Rock CO ORG
+Castle Pines ORG
+Aurora CO ORG
+Centennial CO ORG
+Parker CO ORG
+Englewood ORG
+Mercedes-Benz ORG
+Nashville LOC
+TN LOC
+Mercedes-Benz ORG
+Nashville LOC
+Music City LOC
+Mercedes-Benz ORG
+Mercedes-Benz ORG
