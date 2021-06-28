@@ -9,8 +9,10 @@ tagger = SequenceTagger.load('ner')
 for line in split_file:
     sentence = Sentence(line)
     tagger.predict(sentence)
-
-    for entity in sentence.get_spans('ner'):
-        print(entity.text + " " + entity.tag)
-        newFile.write(entity.text + " " + entity.tag)
-        newFile.write("\n")
+    for token in sentence.tokens:
+        print(token.text + "\t")
+        print(token.get_tag('ner').value)
+    # for entity in sentence.get_spans('ner'):
+    #     print(entity.text + " " + entity.tag)
+    #     newFile.write(entity.text + " " + entity.tag)
+    #     newFile.write("\n")
