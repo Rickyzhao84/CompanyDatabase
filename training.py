@@ -13,7 +13,7 @@ tagger = SequenceTagger.load('ner')
 count = 0
 textParagraphCount = 0
 currentCompany = ""
-
+#make class 
 for line in bingQueryFile:
     count+=1
     if (textParagraphCount == 1):
@@ -46,6 +46,7 @@ for line in bingQueryFile:
                     newFile.write("\t")
                     newFile.write(token.get_tag('ner').value)
                     newFile.write("\n")
+            newFile.write("\n")
 
     if ("[QUERY]" in line.strip('\n')):
         companyName = line.split(":")[1]
@@ -53,14 +54,10 @@ for line in bingQueryFile:
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
         print(current_time + ": processing " + companyName)
-        # newFile.write(companyName)
-        # newFile.write("\n")
+
     if ("https://" in line.strip('\n')):
         textParagraphCount += 1
 
 
 newFile.close()
 bingQueryFile.close()
-
-
-    
