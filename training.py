@@ -24,25 +24,24 @@ for line in bingQueryFile:
         textParagraphCount = 0
         doc = nlp(line)
         for sent in doc.sents:
-            # print(sent.text)
-            # newFile.write(sent.text)
-            # newFile.write("\n")
-
+            if (currentCompany not in sent.text):
+                continue
+         
             sent = Sentence(sent.text)
             tagger.predict(sent)
             
             for token in sent.tokens:
                 if (token.text in currentCompany):
-
+                    partsOfCurrentCompany = currentCompany.split(" ")
                     newFile.write(token.text)
                     newFile.write("\t")
-                    token.add_tag("Organization", "B-Company")
+                    if (token.text != partsOfCurrentCompany[0]):
+                        token.add_tag("Organization", "I-Company")
+                    else: 
+                        token.add_tag("Organization", "B-Company")
                     newFile.write(token.get_tag("Organization").value)
                     newFile.write("\n")
-                    #If company is one word, it is B
-                    #If company is several, B-I-I-I until end of comp name
                 else:
-
                     newFile.write(token.text)
                     newFile.write("\t")
                     newFile.write(token.get_tag('ner').value)
@@ -50,7 +49,7 @@ for line in bingQueryFile:
 
     if ("[QUERY]" in line.strip('\n')):
         companyName = line.split(":")[1]
-        currentCompany = companyName
+        currentCompany = companyName.strip()
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
         print(current_time + ": processing " + companyName)
