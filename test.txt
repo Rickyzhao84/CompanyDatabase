@@ -1,0 +1,446 @@
+The	O
+Parthian	B-Company
+trouser-suit	O
+was	O
+also	O
+adopted	O
+in	O
+Palmyra	S-LOC
+,	O
+Syria	S-LOC
+,	O
+along	O
+with	O
+the	O
+use	O
+of	O
+Parthian	B-Company
+frontality	O
+in	O
+art	.	O
+
+Parthian	B-Company
+sculptures	O
+depict	O
+wealthy	O
+women	O
+wearing	O
+long-sleeved	O
+robes	O
+over	O
+a	dress	O
+,	O
+with	O
+necklaces	O
+,	O
+earrings	O
+,	O
+bracelets	O
+,	O
+and	O
+headdresses	O
+bedecked	O
+in	O
+jewelry	O
+.	O
+
+Parthian	B-Company
+:	O
+[	O
+adjective	O
+]	O
+of	O
+,	O
+relating	O
+to	O
+,	O
+or	O
+characteristic	O
+of	O
+ancient	O
+Parthia	or	O
+its	O
+people	O
+.	O
+
+Parthia	(	O
+Old	B-MISC
+Persian	E-MISC
+:	O
+𐎱𐎼𐎰𐎺	O
+Parθava	O
+;	O
+Parthian	B-Company
+:	O
+𐭐𐭓𐭕𐭅	O
+Parθaw	O
+;	O
+Middle	B-MISC
+Persian	E-MISC
+:	O
+𐭯𐭫𐭮𐭥𐭡𐭥	O
+‎	O
+Pahlaw	S-LOC
+)	O
+is	O
+a	historical	O
+region	O
+located	O
+in	O
+north-eastern	O
+Iran	S-LOC
+.	O
+
+Key	O
+to	O
+many	O
+a	Parthian	B-Company
+victory	O
+and	O
+the	O
+expansion	O
+of	O
+the	O
+Parthian	B-Company
+Empire	E-LOC
+was	O
+the	O
+unique	O
+use	O
+of	O
+the	O
+horse	O
+and	O
+bow	O
+.	O
+
+Parthian	B-Company
+Empire	E-MISC
+By	O
+:	O
+Jona	B-MISC
+Lendering	I-MISC
+The	I-MISC
+Parthian	B-Company
+empire	O
+was	O
+the	O
+most	O
+enduring	O
+of	O
+the	O
+empires	O
+of	O
+the	O
+ancient	O
+Near	B-LOC
+East	E-LOC
+.	O
+
+The	O
+Parthian	B-Company
+empire	O
+occupied	O
+all	O
+of	O
+modern	O
+Iran	S-LOC
+,	O
+Iraq	S-LOC
+and	O
+Armenia	S-LOC
+,	O
+parts	O
+...	O
+
+Section	O
+10	O
+–	O
+The	B-ORG
+Kingdom	I-ORG
+of	I-ORG
+Anxi	I-ORG
+安息	E-ORG
+(	O
+the	O
+Parthian	B-Company
+Empire	E-LOC
+)	O
+The	O
+main	O
+centre	O
+of	O
+Anxi	S-LOC
+(	O
+Parthia	)	O
+1	O
+is	O
+the	O
+town	O
+of	O
+Hedu	S-LOC
+(	O
+Hecatompylos	S-LOC
+)	O
+2	O
+.	O
+
+The	O
+Roman	S-MISC
+and	O
+/	O
+or	O
+Parthian	B-Company
+Development	O
+and	O
+Interaction	O
+within	O
+the	O
+Hellenistic	B-ORG
+World	E-ORG
+;	O
+Accessing	O
+Print	O
+and	O
+Electronic	O
+Materials	O
+The	O
+library	O
+will	O
+be	O
+closed	O
+during	O
+the	O
+Fall	O
+2020	O
+semester	O
+.	O
+
+RiverOak	B-Company
+Publishing	Publisher	E-ORG
+-	O
+49	O
+works	O
+/	O
+20	O
+ebooks	O
+.	O
+
+Discover	B-ORG
+Book	I-ORG
+Depository	E-ORG
+'s	O
+huge	O
+selection	O
+of	O
+RiverOak	B-Company
+Publishing	books	O
+online	O
+.	O
+
+YBK	B-Company
+Publishers	selects	O
+the	O
+books	O
+it	O
+publishes	O
+based	O
+on	O
+solid	O
+scholarship	O
+.	O
+
+YBK	B-Company
+Publishers	are	O
+traditional	O
+book	O
+publishers	O
+using	O
+print-on-demand	O
+to	O
+produce	O
+books	O
+.	O
+
+YBK	B-Company
+Publishers	The	O
+world	O
+'s	O
+first	O
+POD-only	O
+academic	O
+and	O
+general	O
+publisher	O
+is	a	O
+member	O
+of	O
+**	O
+Catalog	O
+of	O
+Titles	O
+Published	O
+and	O
+To	O
+Be	O
+Published	O
+**	O
+[	O
+Free	O
+Manuscript	O
+Reading	O
+Leading	O
+to	O
+Cost-free	O
+Publishing	O
+]	O
+
+YBK	B-Company
+Publishers	,	O
+Inc	B-ORG
+YBK	B-Company
+Publishers	,	I-ORG
+Inc	E-ORG
+.	O
+New	B-LOC
+York	E-LOC
+,	O
+NY	S-LOC
+
+YBK	B-Company
+Publishers	,	I-ORG
+Inc.	E-ORG
+,	O
+2008	O
+-	O
+Business	O
+&	O
+Economics	O
+-	O
+81	O
+pages	O
+0	O
+Reviews	O
+The	O
+Depository	B-ORG
+Trust	I-ORG
+Company	E-ORG
+reports	O
+the	O
+early	O
+1970s	O
+origin	O
+and	O
+evolution	O
+of	O
+The	B-ORG
+Depository	I-ORG
+Trust	I-ORG
+Company	E-ORG
+(	O
+DTC	S-ORG
+)	O
+,	O
+the	O
+world	O
+'s	O
+largest	O
+securities	O
+depository	O
+,	O
+and	O
+how	O
+it	O
+became	O
+the	O
+basis	O
+of	O
+The	B-ORG
+Depository	I-ORG
+Trust	I-ORG
+&	I-ORG
+Clearing	I-ORG
+Corporation	E-ORG
+(	O
+DTCC	S-ORG
+)	O
+in	O
+1999	O
+.	O
+
+YBK	B-Company
+Publishers	,	I-ORG
+Inc	E-ORG
+.	O
+Apr	O
+2000	O
+–	O
+Present	O
+20	O
+years	O
+5	O
+months	O
+.	O
+
+OceanTides	B-Company
+Publishing	:	O
+Chicago	S-LOC
+,	O
+1998	O
+.	O
+
+Publisher	O
+:	O
+OceanTides	B-Company
+Publishing	:	O
+Chicago	S-LOC
+.	O
+:	O
+
+Discover	O
+the	O
+2021	O
+Nissan	B-MISC
+Armada	B-Company
+,	O
+a	full-size	O
+SUV	O
+with	O
+seating	O
+for	O
+up	O
+to	O
+8	O
+and	O
+a	powerful	O
+V8	O
+engine	O
+.	O
+
+Explore	O
+Armada	B-Company
+features	O
+,	O
+specs	O
+,	O
+pricing	O
+,	O
+offers	O
+and	O
+more	O
+.	O
+
+Armada	B-Company
+definition	O
+is	O
+-	O
+a	fleet	O
+of	O
+warships	O
+.	O
+
+This	O
+is	O
+Armada	B-Company
+.	O
+
