@@ -1,63 +1,61 @@
-from logging import currentframe
+from typing import Sequence
+from flair.data import Corpus
+from flair.datasets import UD_ENGLISH
+from flair.datasets import ColumnCorpus
 from flair.data import Sentence
+from flair.embeddings import CharacterEmbeddings, FlairEmbeddings, TokenEmbeddings, WordEmbeddings, StackedEmbeddings
+
+#get corpus
+# corpus: Corpus = UD_ENGLISH().downsample(0.1)
+columnFormat = {0 : 'test', 1: 'ner'}
+corpus: ColumnCorpus = ColumnCorpus('datasets', columnFormat)
+print(corpus)
+
+tag_type = 'ner'
+
+tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
+print(tag_dictionary)
+
+embedding_types = [
+
+    WordEmbeddings('glove'),
+
+    # comment in this line to use character embeddings
+    CharacterEmbeddings(),
+
+    # comment in these lines to use flair embeddings
+    FlairEmbeddings('news-forward', chars_per_chunk = 128),
+    FlairEmbeddings('news-backward', chars_per_chunk= 128),
+]
+
+embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
+
+#initialize sequence tagger
 from flair.models import SequenceTagger
-from datetime import datetime
-import spacy
 
-nlp = spacy.load('en_core_web_sm', exclude=["tok2vec", "tagger", "parser", "lemmatizer", "ner", "transformer"])
-nlp.add_pipe("sentencizer")
-bingQueryFile = open('bingqueryresultx.txt', 'r', encoding='UTF8')
-newFile = open("split_sentence.txt", "w", encoding='utf-8')
-tagger = SequenceTagger.load('ner')
+tagger: SequenceTagger = SequenceTagger(hidden_size=128,
+                                        embeddings=embeddings,
+                                        tag_dictionary=tag_dictionary,
+                                        tag_type=tag_type,
+                                        use_crf=True)
 
-count = 0
-textParagraphCount = 0
-currentCompany = ""
-#make class 
-for line in bingQueryFile:
-    count+=1
-    if (textParagraphCount == 1):
-        textParagraphCount += 1
-        continue
+#initialize trainer
+from flair.trainers import ModelTrainer
 
-    if (textParagraphCount == 2):
-        textParagraphCount = 0
-        doc = nlp(line)
-        for sent in doc.sents:
-            if (currentCompany not in sent.text):
-                continue
-         
-            sent = Sentence(sent.text)
-            tagger.predict(sent)
-            
-            for token in sent.tokens:
-                if (token.text in currentCompany):
-                    partsOfCurrentCompany = currentCompany.split(" ")
-                    newFile.write(token.text)
-                    newFile.write("\t")
-                    if (token.text != partsOfCurrentCompany[0]):
-                        token.add_tag("Organization", "I-Company")
-                    else: 
-                        token.add_tag("Organization", "B-Company")
-                    newFile.write(token.get_tag("Organization").value)
-                    newFile.write("\n")
-                else:
-                    newFile.write(token.text)
-                    newFile.write("\t")
-                    newFile.write(token.get_tag('ner').value)
-                    newFile.write("\n")
-            newFile.write("\n")
+trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
-    if ("[QUERY]" in line.strip('\n')):
-        companyName = line.split(":")[1]
-        currentCompany = companyName.strip()
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
-        print(current_time + ": processing " + companyName)
+#start training
+trainer.train('resources/taggers/example-pos',
+              learning_rate=0.1,
+              mini_batch_size=32,
+              max_epochs= 5)
 
-    if ("https://" in line.strip('\n')):
-        textParagraphCount += 1
+# load model trained
+model = SequenceTagger.load('resources/taggers/example-pos/final-model.pt')
 
+# sentence = Sentence('Starbucks in a big company located in Seattle Washington')
 
-newFile.close()
-bingQueryFile.close()
+# # predict tags and print
+# model.predict(sentence)
+
+# print(sentence.to_tagged_string())

@@ -19,12 +19,14 @@ class CompanyTagging():
                 partsOfCurrentCompany = currentCompany.split(" ")
                 newFile.write(token.text)
                 newFile.write("\t")
-                if (token.text != partsOfCurrentCompany[0]):
-                    token.add_tag("Organization", "I-Company")
-                else: 
+                if (token.text == partsOfCurrentCompany[0]):
                     token.add_tag("Organization", "B-Company")
-                    newFile.write(token.get_tag("Organization").value)
-                    newFile.write("\n")
+                else:
+                    for eachWord in partsOfCurrentCompany:
+                        if (token.text == eachWord):
+                            token.add_tag("Organization", "I-Company")
+                newFile.write(token.get_tag("Organization").value)
+                newFile.write("\n")
             else:
                 newFile.write(token.text)
                 newFile.write("\t")

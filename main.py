@@ -1,8 +1,8 @@
 from sentence_extraction import SentenceExtraction
 
-test = SentenceExtraction('largebingqueryresults.txt','test.txt')
+test = SentenceExtraction('largedatasetpart3.txt','datasets\\tagged_train_data.txt')
 
-test.get_sentence("largebingqueryresults.txt")
+test.get_sentence("largedatasetpart3.txt")
 
 
 
