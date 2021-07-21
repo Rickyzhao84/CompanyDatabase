@@ -122,7 +122,7 @@ def ProcessResultFile(inputFileName : str, resultFileName : str, nerTagForQuery 
 
 if __name__ == "__main__":
     initialize()
-    nerTag = 'PeriodOfDay'  #'Company'
-    resultFile = r"testPeriodsOfDay_bingqueryresults.txt"
-    taggedFile = "PeriodOfDayIOB_BingResultBased.tsv"
+    nerTag = 'Company'  #'Company'
+    resultFile = r"largedatasetpart1.txt"
+    taggedFile = "test.txt"
     ProcessResultFile(resultFile, taggedFile, nerTag)

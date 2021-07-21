@@ -13,6 +13,8 @@ tagger = SequenceTagger.load('ner')
 count = 0
 textParagraphCount = 0
 currentCompany = ""
+# l1=[]
+# l2=[]
 #make class 
 for line in bingQueryFile:
     count+=1
@@ -29,6 +31,7 @@ for line in bingQueryFile:
          
             sent = Sentence(sent.text)
             tagger.predict(sent)
+            # l1.append(sent)
             
             for token in sent.tokens:
                 if (token.text in currentCompany):
@@ -40,13 +43,16 @@ for line in bingQueryFile:
                     else: 
                         token.add_tag("Organization", "B-Company")
                     newFile.write(token.get_tag("Organization").value)
+                    # l2.append(token.get_tag("Organization").value)
                     newFile.write("\n")
                 else:
                     newFile.write(token.text)
                     newFile.write("\t")
                     newFile.write(token.get_tag('ner').value)
+                    # l2.append(token.get_tag('ner').value)
                     newFile.write("\n")
-            newFile.write("\n")
+            train_data = list(zip(l1, l2))
+            print(train_data)
 
     if ("[QUERY]" in line.strip('\n')):
         companyName = line.split(":")[1]
