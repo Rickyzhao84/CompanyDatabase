@@ -13,8 +13,7 @@ tagger = SequenceTagger.load('ner')
 count = 0
 textParagraphCount = 0
 currentCompany = ""
-# l1=[]
-# l2=[]
+# slack
 #make class 
 for line in bingQueryFile:
     count+=1
