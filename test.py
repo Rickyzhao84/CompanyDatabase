@@ -24,11 +24,11 @@ for line in inputFile:
         index = 0
     else:
         getWordAndTag = line.split("\t")
-        word = getWordAndTag[0]
-        tag = getWordAndTag[1]
+        word = getWordAndTag[0].strip()
+        tag = getWordAndTag[1].strip()
         sentence += word
         sentence += " "
-        endIndex = index + len(word) + 1
+        endIndex = index + len(word)
         if (tag.strip() != "O"):
             getEntity = tag.strip().split("-")
             if (getEntity[0] == "I"):
